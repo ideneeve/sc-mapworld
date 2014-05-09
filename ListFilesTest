@@ -1,5 +1,6 @@
 import arcpy
-arcpy.env.workspace = ("C:/Projects/CountyOffices/Voter Registration/Individual Voting Precincts/June2014_Election/PDFs/")
+## Put in workspace source to list as in this example
+##arcpy.env.workspace = ("C:/Projects/CountyOffices/Voter Registration/Individual Voting Precincts/June2014_Election/PDFs/")
 
 pdflist = arcpy.ListFiles("*.pdf")
 print pdflist
